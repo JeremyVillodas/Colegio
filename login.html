@@ -19,7 +19,7 @@
     <main>
       <div class="login">
         <h2>Iniciar Sesión</h2>
-        <form method="POST">
+        <form onsubmit="verificarLogin(event)">
           <label for="usuario">Usuario:</label>
           <input type="text" id="usuario" name="usuario" required />
 
@@ -34,6 +34,7 @@
       </div>
     </main>
 
+    <script src="script.js"></script>
     <script src="login.js"></script>
   </body>
   <footer>
